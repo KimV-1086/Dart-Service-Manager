@@ -9,7 +9,7 @@ body {
 .header {
   background: url(/img/header-bg.png) no-repeat 50%;
   background-size: cover;
-  height: 750px;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -30,7 +30,7 @@ body {
 .header-box {
   padding-top: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
   z-index: 10;
 }
@@ -71,4 +71,121 @@ body {
   line-height: 25px;
   background: transparent;
   border: none;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  padding-top: 170px;
+}
+
+.header-content-card {
+  width: 40%;
+}
+
+.header-content-card h1 {
+  margin-top: 0;
+  color: #ffffff;
+  font-family: "Raleway - Extra Bold";
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 65px;
+  text-transform: uppercase;
+}
+
+.header-content-card p {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.header-content-button-buy {
+  width: 150px;
+  height: 55px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: #061e37;
+  border: none;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+.header-content-button-free {
+  width: 160px;
+  height: 55px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+  color: #061e37;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-content-video {
+  width: 600px;
+  height: 320px;
+  background: url(/img/header-video-bg.png);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-content-video::before {
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 600px;
+  height: 320px;
+  border-radius: 5px;
+  border: 1px solid #061e37;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.play-video {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #061e37;
+  position: relative;
+  border: none;
+}
+
+.material-icons {
+  width: 10px;
+  height: 12px;
+  color: #ffffff;
+  font-family: "Material Icons";
+  font-size: 20px;
+  font-weight: 400;
+  transform: translate(-50%);
+}
+
+.video-txt {
+  padding-top: 20px;
+  width: 110px;
+  height: 9px;
+  color: #061e37;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
 }
