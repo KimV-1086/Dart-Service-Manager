@@ -7,19 +7,19 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/normalize.css">
   <title>Dart Service Manager</title>
 </head>
 <body>
   <section class="header">
     <div class="container">
-      <div class="header-box">
-        <div class="logo-img">
+      <div class="row header-box">
+        <div class="col-lg-3 logo-img">
           <img src="/img/logo.png" alt="logo">
         </div>
 
-        <div class="nav-bar">
+        <div class="col-lg-6 nav-bar">
           <ul class="nav-menu">
             <li class="nav-link"><a href="#">Home</a></li>
             <li class="nav-link"><a href="#">Service</a></li>
@@ -27,14 +27,16 @@
             <li class="nav-link"><a href="#">Pricing</a></li>
           </ul>
         </div>
-
-        <div class="header-btn">
-          <a>sign up</a>
+        <div class="col-lg-3">
+          <div class="ml-auto header-btn">
+            <a>sign up</a>
+          </div>
         </div>
+        
       </div>
 
-      <div class="header-content">
-        <div class="header-content-card">
+      <div class="row header-content">
+        <div class="col-lg-6 header-content-card">
           <h1>lorem Ipsum Dolor sit amet</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc
             laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -42,7 +44,7 @@
             <button class="header-content-button-free">Try for free</button>
         </div>
   
-        <div class="header-content-video">
+        <div class="col-lg-5 header-content-video">
           <button class="play-video">
             <i class="material-icons">play_arrow</i>
           </button>
@@ -58,18 +60,18 @@
       <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </span>
     </div>
-    <div class="useful-cards">
-      <div class="useful-title-card">
+    <div class="row useful-cards">
+      <div class="col-lg-4 col-sm-12 col-md-12 useful-title-card">
         <img src="/img/useful-card-img1.png" alt="img" class="useful-card-img1">
         <h4>Title Goes Here</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
-      <div class="useful-title-card">
+      <div class="col-lg-4 col-sm-12  col-md-12 useful-title-card">
         <img src="/img/useful-card-img2.png" alt="img" class="useful-card-img2">
         <h4>Title Goes Here</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
-      <div class="useful-title-card">
+      <div class="col-lg-4 col-sm-12  col-md-12 useful-title-card">
         <img src="/img/useful-card-img3.png" alt="img" class="useful-card-img3">
         <h4>Title Goes Here</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
