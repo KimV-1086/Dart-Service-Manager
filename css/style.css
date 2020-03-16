@@ -38,7 +38,7 @@ body {
   padding-right: 45px;
 }
 
-.nav-link a {
+.nav-link {
   text-decoration: none;
   color: #ffffff;
   font-family: "Raleway - Semi Bold";
@@ -288,7 +288,6 @@ body {
   height: 145px;
   justify-content: center;
   align-items: center;
-
 }
 
 .useful-icon-box {
@@ -329,16 +328,6 @@ body {
   position: relative;
 }
 
-.useful-statistic-box-1::after {
-  content: '';
-  background: #80d8ff;
-  left: -100%;
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
 .useful-statistic-box-2 {
   background-color: #82b1ff;
 }
@@ -352,29 +341,6 @@ body {
   position: relative;
 }
 
-.useful-statistic-box-4::after {
-  content: '';
-  background:  #ea80fc;
-  right: -100%;
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-@media screen and (max-width: 990px) {
-
-  .useful-statistic-box-1::after {
-    content: '';
-    display: none;
-  }
-  .useful-statistic-box-4::after {
-    content: '';
-    display: none;
-  }
-
-}
-
 .useful-statistic-text p {
   margin: 0;
   color: #ffffff;
@@ -383,3 +349,4 @@ body {
   font-weight: 800;
   line-height: 25px;
 }
+
