@@ -34,20 +34,20 @@ body {
   list-style: none;
 }
 
-.nav-link {
+.nav-item {
   padding-right: 45px;
 }
 
 .nav-link {
   text-decoration: none;
   color: #ffffff;
-  font-family: "Raleway - Semi Bold";
+  font-family: 'Raleway', sans-serif;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 25px;
 }
 
-.nav-link a:hover {
+.nav-link:hover {
   color: #061e37;
 }
 
@@ -349,4 +349,20 @@ body {
   font-weight: 800;
   line-height: 25px;
 }
+
+.services-title h4{
+  color: #061e37;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.services-title p {
+  color: #b0bec5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
 
