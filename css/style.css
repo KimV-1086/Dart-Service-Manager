@@ -413,7 +413,7 @@ body {
   display: flex;
 }
 
-.dropdown-content p {
+.services-accordion {
   color: #061e37;
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
