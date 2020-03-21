@@ -393,6 +393,8 @@ body {
 .services-statistic-title {
   display: flex;
   padding-right: 20px;
+  justify-content: space-between;
+  background-color: #ffffff;
 }
 
 .services-icon h5 {
@@ -401,6 +403,10 @@ body {
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.services-btn {
+  background-color: #ffffff;
 }
 
 .services-icon {
