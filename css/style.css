@@ -373,13 +373,6 @@ body {
   margin-bottom: 10px;
 }
 
-.statistics button {
-  display: block;
-  width: 60px;
-  height: 100%;
-  background-color: #ffffff;
-  border: none;
-}
 
 .statistics i {
   width: 18px;
@@ -424,4 +417,151 @@ body {
 .media img {
   width: 250px;
   height: 155px;
+}
+
+.get-started-cont {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.get-started-cont:first-child {
+  align-items: center;
+}
+
+.get-started {
+  height: 565px;
+  background: url(/img/get-started-bg.png) 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.get-started::after {
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: linear-gradient(-53deg, #00b8d4 0%, #1de9b6 100%);
+  opacity: 0.9;
+  z-index: 5;
+}
+
+.get-started-card-bg {
+  background: transparent;
+  border: none;
+}
+
+.card {
+  background: transparent;
+  border: none;
+  display: flex;
+}
+
+.get-started-card h5 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.get-started-card p {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 75px;
+}
+
+.get-started-card a {
+  width: 150px;
+  height: 55px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: #061e37;
+  border: none;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;;
+  padding-top: 15px;
+}
+
+.get-started-btn {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.get-started-cards {
+  display: flex;
+}
+
+.get-started-cards:first-child {
+  align-items: center;
+}
+
+.card-img{
+  width: 76px;
+  height: 76px;
+}
+
+.card-text-slider {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.card-text-slider h4 {
+  color: #061e37;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.card-text-slider p {
+  color: #78909c;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slick-arrow {
+  position: absolute;
+  right: 50%;
+  z-index: 10;
+  transform: translate(50%);
+  font-size: 0;
+  width: 30px;
+  height: 20px;
+  border: none; 
+}
+
+.slick-arrow, 
+.slick-arrow:active, 
+.slick-arrow:focus {
+    outline: none;
+}
+
+.slick-arrow.slick-prev{
+  top: -30px;
+  background: url(../img/get-started_arrow_up.png) 0 0 no-repeat;
+}
+
+.slick-arrow.slick-next{
+  bottom: -30px;
+  background: url(../img/get-started_arrow_down.png) 0 0 no-repeat;
 }
