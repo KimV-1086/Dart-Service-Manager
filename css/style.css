@@ -41,13 +41,12 @@ body {
 .nav-link {
   text-decoration: none;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 25px;
 }
 
-.nav-link:hover {
+.nav-hover:hover {
   color: #061e37;
 }
 
@@ -79,7 +78,6 @@ body {
 .header-content-card h1 {
   margin-top: 0;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 55px;
   font-weight: 800;
   line-height: 65px;
@@ -89,7 +87,6 @@ body {
 .header-content-card p {
   margin: 30px 0px 40px;
   color: #ffffff;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 35px;
@@ -103,7 +100,7 @@ body {
   background-color: #061e37;
   border: none;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
@@ -117,7 +114,6 @@ body {
   background-color: #ffffff;
   border: none;
   color: #061e37;
-  font-family: Raleway;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -125,17 +121,6 @@ body {
 
 .header-content-card button {
   margin-bottom: 180px;
-}
-
-.header-content-video {
-  width: 600px;
-  height: 320px;
-  background: url(/img/header-video-bg.png);
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .header-content-video::before {
@@ -190,7 +175,6 @@ body {
   margin: 0 auto;
   text-align: center;
   width: 50%;
-  font-family: 'Raleway', sans-serif;
   padding: 90px 0;
 }
 
@@ -203,14 +187,12 @@ body {
 
 .useful-title-text {
   color: #b0bec5;
-  font-family: 'Raleway', sans-serif;
   font-size: 25px;
   font-weight: 600;
 }
 
 .useful-title span {
   color: #b0bec5;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -241,7 +223,6 @@ body {
 
 .useful-title-card h4 {
   color: #061e37;
-  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 25px;
@@ -250,7 +231,6 @@ body {
 
 .useful-title-card p {
   color: #78909c;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -271,7 +251,6 @@ body {
   background-color: #1de9b6;
   border: none;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -344,7 +323,6 @@ body {
 .useful-statistic-text p {
   margin: 0;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 25px;
@@ -352,14 +330,12 @@ body {
 
 .services-title h4{
   color: #061e37;
-  font-family: 'Raleway', sans-serif;
   font-size: 45px;
   font-weight: 600;
 }
 
 .services-title p {
   color: #b0bec5;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -392,7 +368,6 @@ body {
 
 .services-icon h5 {
   color: #061e37;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -408,7 +383,6 @@ body {
 
 .services-accordion {
   color: #061e37;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -431,7 +405,7 @@ body {
 
 .get-started {
   height: 565px;
-  background: url(/img/get-started-bg.png) 50% no-repeat;
+  background: url(../img/get-started-bg.png) 50% no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -464,14 +438,12 @@ body {
 
 .get-started-card h5 {
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 45px;
   font-weight: 600;
 }
 
 .get-started-card p {
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 25px;
@@ -486,7 +458,6 @@ body {
   background-color: #061e37;
   border: none;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;;
@@ -521,7 +492,6 @@ body {
 
 .card-text-slider h4 {
   color: #061e37;
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
@@ -529,7 +499,6 @@ body {
 
 .card-text-slider p {
   color: #78909c;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -564,4 +533,131 @@ body {
 .slick-arrow.slick-next{
   bottom: -30px;
   background: url(../img/get-started_arrow_down.png) 0 0 no-repeat;
+}
+
+.team-our-title {
+  margin: 0 auto;
+}
+
+.team-our-title h4 {
+  color: #061e37;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.team-our-title p {
+  color: #b0bec5;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.team-avatar-cont {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  align-items: center;
+}
+
+.team-avatar1, .team-avatar3 {
+  opacity: 0.2;
+}
+
+.team-avatar2 {
+  padding: 0 45px 0;
+  display: flex;
+}
+
+.team-our-title-links {
+  margin: 0 auto;
+
+}
+
+.team-our-title-links h4 {
+  color: #061e37;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.team-our-title-links p {
+  color: #90a4ae;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.team-social-links li {
+  padding: 0;
+}
+
+.contact-title {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+
+.contact-title h4  {
+  color: #061e37;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.contact-title p {
+  color: #061e37;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.contact-form {
+ margin: 0 auto;
+}
+
+.contact-form-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form-txt-area {
+  height: 145px;
+}
+
+.contact-form-btn {
+  width: 130px;
+  height: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: #1de9b6;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #061e37;
+  height: 300px;
+}
+
+.footer-content {
+  padding-top: 90px;
+}
+
+.footer span {
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.nav-item-footer {
+ padding: 0;
+}
+
+.nav-menu-footer {
+  padding-right: 0;
 }
