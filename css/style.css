@@ -556,14 +556,14 @@ body {
   align-items: center;
 }
 
-.team-avatar1, .team-avatar3 {
+.team-ava1, .team-ava2, .team-ava3 {
+  width: 100px;
+  height: 100px;
   opacity: 0.2;
+  padding: 20px;
 }
 
-.team-avatar2 {
-  padding: 0 45px 0;
-  display: flex;
-}
+
 
 .team-our-title-links {
   margin: 0 auto;
