@@ -370,12 +370,14 @@ body {
   text-transform: uppercase;
 }
 
-.services-btn {
+.services-btn button {
   background-color: #ffffff;
+  width: 100%;
 }
 
 .services-icon {
   display: flex;
+  justify-content: space-between;
 }
 
 .services-accordion {
