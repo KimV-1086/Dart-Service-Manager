@@ -7,69 +7,35 @@ $(document).ready(function(){
     slidesToScroll: 1
   });
 
+  const teamAva = $( ".team-ava" );
+  const cardTeam = $('.team-our-title-links');
 
-  $('.team-ava1').click(function() {
-    $('.team-ava1').animate({
+
+  const avaAnimate = (target) => {
+    teamAva.animate({
+      width: "100px",
+      height: "100px",
+      opacity: 0.2
+    })
+    target.animate({
       width: "163px",
       height: "163px",
-      opacity: 1
-    }, 500);
-    $('.team-ava2').animate({
-      width: "100px",
-      height: "100px",
-      opacity: 0.2
-    }, 500);
-    $('.team-ava3').animate({
-      width: "100px",
-      height: "100px",
-      opacity: 0.2
-    }, 500);
+      opacity: 1,
+      }, 500);
 
-    $('.team-title').text('ava1');
-    $('.team-text').text('ava1 lorem amsdmada mkamdmasdm kamdkmldm akmdlska');
-  });  
+      cardTeam.collapse('hide').animate(300);
 
-  $('.team-ava2').click(function() {
-    $('.team-ava2').animate({
-      width: "163px",
-      height: "163px",
-      opacity: 1
-    }, 500);
-    $('.team-ava1').animate({
-      width: "100px",
-      height: "100px",
-      opacity: 0.2
-    }, 500);
-    $('.team-ava3').animate({
-      width: "100px",
-      height: "100px",
-      opacity: 0.2
-    }, 500);
+  }
 
-    $('.team-title').text('ava2');
-    $('.team-text').text('ava2 lorem amsdmada mkamdmasdm kamdkmldm akmdlska');
-  });  
+  
+  teamAva.on('click', (e) => {
+    
+    const target = $(e.target);
+    avaAnimate(target);
+    
+  });
 
-  $('.team-ava3').click(function() {
-    $('.team-ava3').animate({
-      width: "163px",
-      height: "163px",
-      opacity: 1
-    }, 500);
-    $('.team-ava2').animate({
-      width: "100px",
-      height: "100px",
-      opacity: 0.2
-    }, 500);
-    $('.team-ava1').animate({
-      width: "100px",
-      height: "100px",
-      opacity: 0.2
-    }, 500);
-
-    $('.team-title').text('ava3');
-    $('.team-text').text('ava3 lorem amsdmada mkamdmasdm kamdkmldm akmdlska');
-  });  
+  
 
 });
 

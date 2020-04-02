@@ -370,15 +370,24 @@ body {
   text-transform: uppercase;
 }
 
+.card-body:hover {
+  text-decoration: none;
+}
+
 .services-btn button {
   background-color: #ffffff;
   width: 100%;
+}
+
+.services-btn button:hover {
+  text-decoration: none;
 }
 
 .services-icon {
   display: flex;
   justify-content: space-between;
 }
+
 
 .services-accordion {
   color: #061e37;
@@ -534,6 +543,10 @@ body {
   background: url(../img/get-started_arrow_down.png) 0 0 no-repeat;
 }
 
+.team {
+  height: 600px;
+}
+
 .team-our-title {
   margin: 0 auto;
 }
@@ -552,20 +565,37 @@ body {
 }
 
 .team-avatar-cont {
+  height: 250px;
   display: flex;
   justify-content: center;
   padding: 30px;
   align-items: center;
 }
 
-.team-ava1, .team-ava2, .team-ava3 {
+.team-avatar a {
+  border: none;
+  background: none;
+}
+
+.team-avatar a:hover {
+  background: none;
+  text-decoration: none;
+}
+.team-avatar a:active {
+  background: none;
+  text-decoration: none;
+}
+.team-avatar a:focus {
+  background: none;
+  text-decoration: none;
+}
+
+.team-ava {
   width: 100px;
   height: 100px;
   opacity: 0.2;
   padding: 20px;
 }
-
-
 
 .team-our-title-links {
   margin: 0 auto;
