@@ -12,18 +12,20 @@ $(document).ready(function(){
 
 
   const avaAnimate = (target) => {
+    
     teamAva.animate({
       width: "100px",
       height: "100px",
       opacity: 0.2
     })
+    
     target.animate({
       width: "163px",
       height: "163px",
       opacity: 1,
       }, 500);
 
-      cardTeam.collapse('hide').animate(300);
+    cardTeam.collapse('hide').animate(600);
 
   }
 
