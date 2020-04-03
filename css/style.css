@@ -379,6 +379,10 @@ body {
   width: 100%;
 }
 
+.card-header:hover {
+  text-decoration: none;
+}
+
 .services-btn button:hover {
   text-decoration: none;
 }
